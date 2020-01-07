@@ -1,0 +1,148 @@
+ol
+{
+ list-style-type: none;
+ font-size: 20px;
+ padding: 0;
+ margin: 0;
+ display: inline-block;
+ height: 75px;
+}
+
+ol > li:hover 
+{
+    background-color: darkturquoise;   
+}
+
+ol > li:hover a
+{
+    color: white;   
+}
+
+ol a
+{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+ol > li 
+{
+    float: left;
+    padding : 20px;
+    margin-right: 50px;
+    height: 75px;
+}
+
+ol > li:first-child
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    padding: 0px;
+}
+
+.header
+{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 75px;
+}
+
+.offer
+{
+    margin-top: 30px;
+    text-align: left;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 1200px;
+    float: left;
+    margin-bottom: 80px;
+}
+
+.logo
+{
+    margin-top: 50px;
+    margin-left: 80px;
+    height: 504px;
+    width: 600px;
+    float: left;
+    margin-bottom: 80px;
+    overflow: hidden;
+    text-align: center;
+    transition-duration: 2s;
+}
+
+.logo:hover
+{
+    transform: scale(1.1);
+}
+
+#image
+{
+    max-width: 100%;
+    max-height: 100%;
+    transition: 0.5s;
+
+}
+
+.tile
+{
+    height: 200px;
+    width: 350px;
+    display: inline-block;
+    background-color: rgb(211, 57, 82);
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.tile img:hover {
+    filter: brightness(30%);
+}
+
+.footer
+{
+    margin-top: 100px;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    clear: both;    
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    body { margin: 0; padding: 0;} 
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 20s slidy infinite; 
+    }
+

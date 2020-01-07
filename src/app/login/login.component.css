@@ -1,0 +1,135 @@
+#panel 
+{
+    width: 400px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 15px 0 0;
+    background: #fff;
+    border: 1px solid silver;
+    font: 16px calibri;
+    letter-spacing: -1px;
+    -webkit-box-shadow: 0 0 2px silver; 
+    -moz-box-shadow: 0 0 2px silver; 
+    box-shadow: 0 0 2px silver;
+}
+    
+form 
+{
+    margin: 0;
+}
+
+#username, #password 
+{
+display: block;
+width: 360px; 
+margin: 0 auto;
+padding: 10px 5px;
+border: 1px solid silver;
+outline: 5px solid #ebebeb;
+font-size: 22px;
+}
+
+#username:focus, #password:focus 
+{
+    outline: 5px solid #e5f2f8;
+}
+
+	
+#lower 
+{
+    background: #ecf2f5;
+    width: 360px;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+
+	
+label
+{
+display: block;
+width: 260px;
+padding: 10px 20px;
+color: #696969;
+font-size: 16px;
+text-shadow: 0 0 1px silver;
+}
+
+#log
+{
+    margin-left: 60px;
+}
+
+#reg
+{
+    margin-left: 70px;
+}
+
+.title
+{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+ol
+{
+ list-style-type: none;
+ font-size: 20px;
+ padding: 0;
+ margin: 0;
+ display: inline-block;
+ height: 75px;
+}
+
+ol > li:hover 
+{
+    background-color: darkturquoise;   
+}
+
+ol > li:hover a
+{
+    color: white;   
+}
+
+ol a
+{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+ol > li 
+{
+    float: left;
+    padding : 20px;
+    margin-right: 50px;
+    height: 75px;
+}
+
+ol > li:first-child
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    padding: 0px;
+}
+
+.header
+{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 75px;
+}
+
+.footer
+{
+    margin-top: 350px;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    clear: both;    
+}
